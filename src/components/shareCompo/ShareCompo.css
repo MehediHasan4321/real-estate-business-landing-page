@@ -1,0 +1,8 @@
+.icon{
+    display: flex;
+    align-items: center;
+    background: #EEEEFF;
+    color: var(--blue);
+    border-radius: 5px;
+   padding: 5px;
+}

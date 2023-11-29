@@ -1,0 +1,43 @@
+.accordion{
+    margin-top: 2rem;
+    border: none;
+    
+}
+
+.v-container>div{
+    flex: 1;
+    margin: 0 5px;
+    
+}
+
+.accordionItem{
+    background: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.431);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    padding: 0 10px;
+    
+}
+
+.accordionItem.expanded{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+
+.accor-btn{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+   
+    
+}
+
+.accor-btn>h4{
+    font-size:1.1rem;
+}
+

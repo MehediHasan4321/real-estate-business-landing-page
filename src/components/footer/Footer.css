@@ -1,0 +1,30 @@
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-left>img{
+    width: 150px;
+}
+
+.f-left>p{
+    font-size: 16px;
+    color: #999;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 15px;
+
+}
+.links>span{
+    cursor: pointer;
+    transition: all 100ms ease-in;
+}
+
+.links>span:hover{
+    color: var(--blue);
+}

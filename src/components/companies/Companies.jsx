@@ -1,5 +1,4 @@
 import './Companies.css'
-import React from 'react';
 import {equinix,tower,realty,prologis} from '../../assets'
 
 const Companies = () => {
